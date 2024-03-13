@@ -1,4 +1,4 @@
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=59c50fe87fd65199bea0a528226f0304')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=API KEY')
   .then(response => response.json())
   .then(data => {
     
